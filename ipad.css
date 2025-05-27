@@ -1,0 +1,79 @@
+@media screen and (min-width: 767.99px) and (max-width: 991.98px) {
+    .deskripsi{
+        margin: 40px;
+    }
+
+    .scrol{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "satu dua"
+        ;
+        grid-template-columns: 50% 50%;
+        box-sizing: border-box;
+    }
+
+    .text{
+        display: flex;
+        grid-area: satu;
+    }
+
+    .tengah{
+        margin: auto;
+    }
+
+
+    .fotoM{
+        display: grid;
+        grid-area: dua;
+        grid-template-areas:
+        "satu"
+        "dua"
+        "tiga"
+        "empat"
+        ;
+        grid-template-columns: 50%;
+        box-sizing: border-box;
+        padding: 40px;
+    }
+
+    
+    .fot1{
+        margin: auto;
+        grid-area: satu;
+    }
+    
+    .fot2{
+        margin: auto;
+        grid-area: dua;
+    }
+    
+    .fot3{
+        margin: auto;
+        grid-area: tiga;
+    }
+    
+    .fot4{
+        margin: auto;
+        grid-area: empat;
+    }
+
+    .kenal{
+        display: grid;
+        grid-template-areas:
+        "satu dua tiga"
+        "empat lima enam"
+        "tujuh delapan sembilan"
+        "sepuluh sebelas duabelas"
+        ;
+        grid-template-columns: 30% 40% 30%;
+    }
+
+    .des10{
+        grid-area: sebelas;
+    }
+
+    .des11{
+        grid-area: sepuluh;
+    }
+}

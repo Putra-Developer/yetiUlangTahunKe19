@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 576.99px) and (max-width: 767.98px){
+    /* JARAK ANTARA TEXT PERTAMA DENGAN FOTO */
+    .deskripsi{
+        margin-right: 50px;
+    }
+
+    /* KARTU FOTO */
+
+    .kenal{
+        display: grid;
+        grid-template-areas:
+        "satu dua"
+        "tiga empat"
+        "lima enam"
+        "tujuh delapan"
+        "sembilan sepuluh"
+        "sebelas duabelas"
+        ;
+        grid-template-columns: 50% 50%;
+        box-sizing: border-box;
+    }
+
+    .kartu{
+        background: linear-gradient(to right, #be93c5, #7bc6cc);;
+        border-radius: 15px;
+        box-sizing: border-box;
+        padding: 20px;
+        box-shadow: 5px 5px 10px;
+    }
+    
+    .des1{
+        grid-area: satu;
+    }
+
+    .des2{
+        grid-area: dua;
+    }
+
+    .des3{
+        grid-area: tiga;
+    }
+
+    .des4{
+        grid-area: empat;
+    }
+
+    .des5{
+        grid-area: lima;
+    }
+
+    .des6{
+        grid-area: enam;
+    }
+
+    .des7{
+        grid-area: tujuh;
+    }
+
+    .des8{
+        grid-area: delapan;
+    }
+
+    .des9{
+        grid-area: sembilan;
+    }
+
+    .des10{
+        grid-area: sepuluh;
+    }
+
+    .des11{
+        grid-area: sebelas;
+    }
+
+    .des12{
+        grid-area: duabelas;
+    }
+
+}
